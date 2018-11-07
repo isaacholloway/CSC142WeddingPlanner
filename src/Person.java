@@ -25,7 +25,7 @@ public class Person {
 		
 		Person person = new Person("Barney Rubble");
 		Person person1 = new Person();
-		Tables tables = new Tables();
+		//Table tables = new Table();
 		//table.setTable(table.tabletest);
 		/*System.out.println(person.getName());
 		System.out.println(person1.getName());
