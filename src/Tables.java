@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class Tables {
 	
 	
-	static int totalGuests = myScanner1();
-	static int maxGuests = myScanner2();
+	static int totalGuests = totalGuestsScanner();
+	static int maxGuests = maxGuestsScanner();
 	private static Scanner sc1;
 	private static Scanner sc2;
 	static int indicator = totalGuests % maxGuests;
 	
-	public static int myScanner1(){
+	public static int totalGuestsScanner(){
 		System.out.println("How many guests will be attending?");
 		sc1 = new Scanner(System.in);
 	    int totalGuests = sc1.nextInt();
 		return totalGuests;
 	}
-	public static int myScanner2() {
+	public static int maxGuestsScanner() {
 		System.out.println("How many guests will each table hold?");
 		sc2 = new Scanner(System.in);
 		int maxGuests = sc2.nextInt();
